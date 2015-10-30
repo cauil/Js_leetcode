@@ -9,7 +9,8 @@ var threeSum = function(nums) {
         k,
         total,
         len = nums.length;
-        
+
+
     if(nums.length < 3) return arr;
     nums.sort(function(v1, v2) {return v1 -v2;});
     for(i = 0; i < len - 2; i++) {
