@@ -11,6 +11,6 @@ var rotate = function(matrix) {
         matrix1[i] = matrix[parseInt(i / n)][i % n];
     }
     for(i = 0; i < len; i++) {
-        matrix[i % n][n - 1 - parseInt(i / n)] = matrix1[i]
+        matrix[i % n][n - 1 - parseInt(i / n)] = matrix1[i];
     }
 };
